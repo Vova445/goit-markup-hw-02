@@ -1,0 +1,27 @@
+body{
+    font-family: var(--body-font-family);
+}
+
+.web{
+    color: #4D5AE5;
+    text-transform: uppercase;
+    font-family: var(--web-studio);
+}
+.main-nav{
+    background-color: #E7E9FC;
+}
+
+.web-studio{
+    text-transform: uppercase;
+    font-family: var(--web-studio);
+}
+
+ul{
+    list-style-type: none;
+}
+
+:root{
+    --web-studio: "Raleway";
+    --body-font-family: "Roboto";
+}
+
