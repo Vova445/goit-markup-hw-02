@@ -1,11 +1,16 @@
 body{
-    font-family: var(--body-font-family);
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 .web{
-    color: #4D5AE5;
-    text-transform: uppercase;
-    font-family: var(--web-studio);
+    color:  var(--span-color);
+    
+}
+.web-footer{
+    color: #F4F4FD;
+    
 }
 
 .main-nav{
@@ -15,16 +20,18 @@ body{
 
 .web-studio{
     text-transform: uppercase;
-    font-family: var(--web-studio);
-    color: #2E2F42;
-}
-.web-studio-footer{
-    text-transform: uppercase;
-    font-family: var(--web-studio);
-    color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
+   
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color:#4d5ae5;
 }
 
-
+.link{
+    text-decoration: none;
+}
 .part-one{
     background-color: #2E2F42;
 }
@@ -49,10 +56,39 @@ body{
 .team p{
     text-align: center;
 }
-ul{
+.list{
     list-style-type: none;
 }
 
+.studio-nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--span-color);
+
+}
+
+.studio-nav:hover, .studio-nav:focus{
+    color: #404bbf;
+}
+
+.address-header{
+    font-style: normal;
+}
+
+
+.address{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-color);
+
+}
+
+.address:hover, .address:focus{
+    color: #404bbf;
+}
 footer{
     background-color: #2E2F42;
 }
@@ -60,7 +96,8 @@ footer{
 footer p{
     color: #F4F4FD;
 }
+
 :root{
-    --web-studio: "Raleway";
-    --body-font-family: "Roboto";
+    --span-color: #2e2f42;
+    --address-color: #434455;
 }
