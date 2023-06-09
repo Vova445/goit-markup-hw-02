@@ -7,6 +7,7 @@ body{
     text-transform: uppercase;
     font-family: var(--web-studio);
 }
+
 .main-nav{
     background-color: #E7E9FC;
    
@@ -15,6 +16,12 @@ body{
 .web-studio{
     text-transform: uppercase;
     font-family: var(--web-studio);
+    color: #2E2F42;
+}
+.web-studio-footer{
+    text-transform: uppercase;
+    font-family: var(--web-studio);
+    color: #F4F4FD;
 }
 
 
@@ -25,15 +32,34 @@ body{
     font-size: 56px;
     color: #ffffff;
     text-align: center;
-    line-height: 6;
 }
 .button-one{
     background-color: #4D5AE5 ;
+}
+
+
+.section-title{
+    text-align: center;
+    font-size: 36px;
+}
+
+.team h3{
+    text-align: center;
+}
+.team p{
+    text-align: center;
 }
 ul{
     list-style-type: none;
 }
 
+footer{
+    background-color: #2E2F42;
+}
+
+footer p{
+    color: #F4F4FD;
+}
 :root{
     --web-studio: "Raleway";
     --body-font-family: "Roboto";
