@@ -39,9 +39,22 @@ body{
     font-size: 56px;
     color: #ffffff;
     text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 .button-one{
     background-color: #4D5AE5 ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.button-one:hover, .button-one:focus{
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 
