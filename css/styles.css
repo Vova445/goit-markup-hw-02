@@ -150,6 +150,10 @@ color: var(--span-color);
    
 }
 
+.footer-page-two{
+    background-color: var(--span-color);
+}
+
 .footer-p{
     color: #F4F4FD;
     letter-spacing: 0.02em;
