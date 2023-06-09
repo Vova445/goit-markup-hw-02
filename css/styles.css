@@ -156,7 +156,24 @@ color: var(--span-color);
     line-height: 1.5;
 }
 
+
+.button-one-page-two{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--address-color);
+    background-color: var(--button-bg-color);
+}
+
+.button-page-two:hover, .button-page-two:focus{
+    color: #ffffff;
+    background-color: #404bbf;
+    cursor: pointer;
+}
 :root{
     --span-color: #2e2f42;
     --address-color: #434455;
+    --button-bg-color: #f4f4fd;
 }
