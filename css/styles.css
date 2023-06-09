@@ -81,6 +81,10 @@ color: var(--span-color);
     font-size: 16px;
     letter-spacing: 0.02em;
 }
+
+.team{
+    background-color: #F4F4FD;
+}
 .team h3{
     text-align: center;
 }
@@ -89,6 +93,27 @@ color: var(--span-color);
 }
 .list{
     list-style-type: none;
+}
+
+
+.li-one{
+    background-color: #FFFFFF;
+}
+
+.part-three-title{
+    font-size: 20px;
+    font-weight: 500;
+
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--span-color);
+}
+
+.part-three-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-color);
 }
 
 .studio-nav{
@@ -120,12 +145,14 @@ color: var(--span-color);
 .address:hover, .address:focus{
     color: #404bbf;
 }
-footer{
+.footer-page-one{
     background-color: #2E2F42;
+   
 }
 
-footer p{
+.footer-p{
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 :root{
